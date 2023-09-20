@@ -9,12 +9,9 @@ public class Main {
         myList.add("Yura");
         myList.add("Max");
         myList.add("Yura");
+        myList.add("Max");
 
-        int yuraCount = myList.getCountOfElement("Yura");
-
-        System.out.println("Count of Yura: " + yuraCount);
-        System.out.println("Count of Oleh: " + myList.getCountOfElement("Oleh"));
-        System.out.println("Count of Max: " + myList.getCountOfElement("Max"));
+        System.out.println("Count of duplicates in collection: " + myList.getCountOfDuplicate());
 
         System.out.println(myList);
     }
